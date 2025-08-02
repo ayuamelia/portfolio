@@ -13,7 +13,7 @@
 // export default App;
 
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
 import OtherProjectDetail from "./containers/otherProject/OtherProjectDetail";
@@ -26,6 +26,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/otherProjects/:slug" component={OtherProjectDetail} />
+        <Route component={Main} />
       </Switch>
     </Router>
   );
