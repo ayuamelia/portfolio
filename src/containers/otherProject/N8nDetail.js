@@ -7,7 +7,7 @@ import openapiImage3 from "../../assets/images/openapi3.png";
 
 const openapiImages = [openapiImage1, openapiImage2, openapiImage3];
 
-const openApiDetails = [
+const n8nDetails = [
   {
     title: "Currency Sync to Redis",
     dag: "dev_integrasi_sync_redis_currency",
@@ -42,7 +42,7 @@ export default function N8nDetail() {
   };
   return (
     <>
-      <div style={{margin: "20px"}}>
+      {/* <div style={{margin: "20px"}}>
         <Slider {...sliderSettings} className="openapi-slider">
           {openapiImages.map((img, i) => (
             <div key={i}>
@@ -59,8 +59,8 @@ export default function N8nDetail() {
             </div>
           ))}
         </Slider>
-      </div>
-      {openApiDetails.map((dag, index) => (
+      </div> */}
+      {n8nDetails.map((dag, index) => (
         <div key={index}>
           <div className="dag-content">
             <p className="dag-tools">

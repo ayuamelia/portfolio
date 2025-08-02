@@ -7,10 +7,8 @@ import openapiImage3 from "../../assets/images/openapi3.png";
 
 const openapiImages = [openapiImage1, openapiImage2, openapiImage3];
 
-const openApiDetails = [
+const posDetails = [
   {
-    title: "Currency Sync to Redis",
-    dag: "dev_integrasi_sync_redis_currency",
     key: [
       "AI-Assisted Decision Making: Utilizes Ollama for natural language reasoning to interpret and prioritize ITCR details."
     ],
@@ -42,7 +40,7 @@ export default function PosCoffeeshopDetail() {
   };
   return (
     <>
-      <div style={{margin: "20px"}}>
+      {/* <div style={{margin: "20px"}}>
         <Slider {...sliderSettings} className="openapi-slider">
           {openapiImages.map((img, i) => (
             <div key={i}>
@@ -59,8 +57,8 @@ export default function PosCoffeeshopDetail() {
             </div>
           ))}
         </Slider>
-      </div>
-      {openApiDetails.map((dag, index) => (
+      </div> */}
+      {posDetails.map((dag, index) => (
         <div key={index}>
           <div className="dag-content">
             <p className="dag-tools">

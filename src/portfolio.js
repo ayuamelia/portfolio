@@ -467,22 +467,21 @@ const otherProjectSection = {
         }
       ]
     },
-
-    {
-      title: "POS CoffeeShop",
-      image: require("./assets/images/poscoffeeshopLogo.png"),
-      imageAlt: "POS CoffeeShop Logo",
-      subtitle:
-        "POS CoffeeShop is a fun side project built with Flutter for managing coffee shop orders, inventory, and payments. Designed with a minimalist UI and offline-first logic to support small businesses in handling real-time transactions smoothly.",
-      detailComponent: "PosCoffeeshopDetail",
-      footerLink: [
-        {
-          name: "View Details",
-          url: `/otherProjects/${slugify("POS CoffeeShop")}`
-          // url: "https://github.com/ayuamelia/pos-cofeeshop"
-        }
-      ]
-    }
+    // {
+    //   title: "POS CoffeeShop",
+    //   image: require("./assets/images/poscoffeeshopLogo.png"),
+    //   imageAlt: "POS CoffeeShop Logo",
+    //   subtitle:
+    //     "POS CoffeeShop is a fun side project built with Flutter for managing coffee shop orders, inventory, and payments. Designed with a minimalist UI and offline-first logic to support small businesses in handling real-time transactions smoothly.",
+    //   detailComponent: "PosCoffeeshopDetail",
+    //   footerLink: [
+    //     {
+    //       name: "View Details",
+    //       url: `/otherProjects/${slugify("POS CoffeeShop")}`
+    //       // url: "https://github.com/ayuamelia/pos-cofeeshop"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };

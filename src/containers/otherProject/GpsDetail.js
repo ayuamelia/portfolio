@@ -7,7 +7,7 @@ import openapiImage3 from "../../assets/images/openapi3.png";
 
 const openapiImages = [openapiImage1, openapiImage2, openapiImage3];
 
-const openApiDetails = [
+const gpsDetails = [
   {
     title: "Currency Sync to Redis",
     dag: "dev_integrasi_sync_redis_currency",
@@ -47,7 +47,7 @@ export default function GpsDetail() {
   };
   return (
     <>
-      <div style={{margin: "20px"}}>
+      {/* <div style={{margin: "20px"}}>
         <Slider {...sliderSettings} className="openapi-slider">
           {openapiImages.map((img, i) => (
             <div key={i}>
@@ -64,8 +64,8 @@ export default function GpsDetail() {
             </div>
           ))}
         </Slider>
-      </div>
-      {openApiDetails.map((dag, index) => (
+      </div> */}
+      {gpsDetails.map((dag, index) => (
         <div key={index}>
           <div className="dag-content">
             <p className="dag-tools">
