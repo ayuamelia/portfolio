@@ -50,6 +50,9 @@ on:
     - cron: '0 0 * * 0'  # weekly, every Sunday at midnight
   workflow_dispatch:     # allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
