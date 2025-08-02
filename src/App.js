@@ -13,7 +13,8 @@
 // export default App;
 
 import React from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"; // local
+// import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // github
 import "./App.scss";
 import Main from "./containers/Main";
 import OtherProjectDetail from "./containers/otherProject/OtherProjectDetail";
