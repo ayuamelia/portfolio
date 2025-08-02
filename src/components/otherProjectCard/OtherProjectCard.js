@@ -1,6 +1,6 @@
 import React from "react";
 import "./OtherProjectCard.scss";
-import { useHistory } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 export default function OtherProjectCard({cardInfo, isDark}) {
   const history = useHistory();

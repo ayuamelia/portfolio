@@ -428,7 +428,8 @@ const otherProjectSection = {
       image: require("./assets/images/n8n.png"),
       subtitle:
         "Exploring AI-driven automation with n8n: crafted no-code workflows that integrate Ollama, APIs, and internal tools to enhance productivity and decision-making.",
-      intro:"In response to PT PELNI’s growing initiative to explore AI-driven solutions, this project focuses on developing an internal tool using n8n, a no-code automation platform, to streamline and enhance decision-making related to IT Change Request (ITCR) prioritization. The system integrates AI models and internal data sources to provide quick, data-informed suggestions on which CRs should be addressed first, increasing productivity and consistency in project planning.",
+      intro:
+        "In response to PT PELNI’s growing initiative to explore AI-driven solutions, this project focuses on developing an internal tool using n8n, a no-code automation platform, to streamline and enhance decision-making related to IT Change Request (ITCR) prioritization. The system integrates AI models and internal data sources to provide quick, data-informed suggestions on which CRs should be addressed first, increasing productivity and consistency in project planning.",
       detailComponent: "OpenApiDetail",
       footerLink: [
         {
@@ -442,9 +443,10 @@ const otherProjectSection = {
       image: require("./assets/images/gps-icon.png"),
       subtitle:
         "Web application framework to seamlessly connect pet owners with pet shop services in Jakarta.",
-      intro: "Golek Pet Shop (GPS) is a web application framework with a clear and focused purpose: to seamlessly connect pet owners with pet shop services in South Jakarta. We believe development should result in practical, user-friendly tools that solve real-world problems. GPS aims to simplify the process of finding and booking pet services by centralizing information and functionality into one intuitive platform.",
+      intro:
+        "Golek Pet Shop (GPS) is a web application framework with a clear and focused purpose: to seamlessly connect pet owners with pet shop services in South Jakarta. We believe development should result in practical, user-friendly tools that solve real-world problems. GPS aims to simplify the process of finding and booking pet services by centralizing information and functionality into one intuitive platform.",
       detailComponent: "GpsDetail",
-        footerLink: [
+      footerLink: [
         {
           name: "View Details",
           url: `/otherProjects/${slugify("golek-pet-shop")}`
@@ -457,7 +459,8 @@ const otherProjectSection = {
       image: require("./assets/images/hirelitLogo.png"),
       subtitle:
         "HireLit E-Recruitment Platform is a full-stack web-based recruitment system built with Laravel for PT Erdikha Elit Sekuritas.",
-      intro: "The application was designed to solve the challenges of a traditional, paper-based hiring process, which was often inefficient and prone to data loss or damage. The system digitizes and integrates the entire recruitment workflow, from the initial request for a new employee to the final approval by a director. The core goal is to create a structured, efficient, and transparent recruitment process for all stakeholders.",
+      intro:
+        "The application was designed to solve the challenges of a traditional, paper-based hiring process, which was often inefficient and prone to data loss or damage. The system digitizes and integrates the entire recruitment workflow, from the initial request for a new employee to the final approval by a director. The core goal is to create a structured, efficient, and transparent recruitment process for all stakeholders.",
       detailComponent: "HirelitDetail",
       footerLink: [
         {
@@ -466,7 +469,7 @@ const otherProjectSection = {
           // url: "https://github.com/ayuamelia/recruitment-app"
         }
       ]
-    },
+    }
     // {
     //   title: "POS CoffeeShop",
     //   image: require("./assets/images/poscoffeeshopLogo.png"),

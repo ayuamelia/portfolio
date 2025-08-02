@@ -49,17 +49,27 @@ export default function AirflowDetail() {
     <>
       {airflowDags.map((dag, index) => (
         <div key={index} className="dag-item">
-          <img src={dag.image} alt={`Screenshot of ${dag.title}`} className="dag-image" />
+          <img
+            src={dag.image}
+            alt={`Screenshot of ${dag.title}`}
+            className="dag-image"
+          />
           <div className="dag-content">
             <h3>{dag.title}</h3>
-            <p className="dag-id"><strong>DAG:</strong> {dag.dag}</p>
+            <p className="dag-id">
+              <strong>DAG:</strong> {dag.dag}
+            </p>
             <ul className="dag-description">
               {dag.description.map((line, idx) => (
                 <li key={idx}>{line}</li>
               ))}
             </ul>
-            <p className="dag-tools"><strong>🧰 Tools:</strong> {dag.tools.join(", ")}</p>
-            <p className="dag-focus"><strong>📈 Focus:</strong> {dag.focus}</p>
+            <p className="dag-tools">
+              <strong>🧰 Tools:</strong> {dag.tools.join(", ")}
+            </p>
+            <p className="dag-focus">
+              <strong>📈 Focus:</strong> {dag.focus}
+            </p>
           </div>
         </div>
       ))}

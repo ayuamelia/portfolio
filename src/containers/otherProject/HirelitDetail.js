@@ -29,7 +29,7 @@ const hirelitDetails = [
       "Automation Triggers: Supports both webhook-based and scheduled executions, allowing the system to run autonomously or on demand.",
       "Hosting & Security: Entirely self-hosted on PT PELNI’s internal servers, ensuring full data control, restricted access, and compliance with internal security policies."
     ],
-    role:[
+    role: [
       " Project Initiation & Concept Design: Initiated and proposed the idea of using AI-powered no-code automation to support the prioritization of IT Change Requests (ITCR) within the IT division, addressing recurring bottlenecks in team decision-making and planning."
     ]
   }

@@ -22,7 +22,7 @@ const openApiDetails = [
       "⁠Tools: GitLab, Postman, Swagger Editor,",
       "⁠Microservices Pattern: Each service documented as its own module with defined endpoints, models, responses, and usage notes."
     ],
-    role:[
+    role: [
       "⁠Daily Author of OpenAPI Specs: Wrote and maintained Swagger documentation for every new or updated microservice I built.",
       "⁠Integration Enabler: Collaborated with frontend, mobile, and QA teams to ensure APIs were not just functional but understandable and usable.",
       "⁠Code-to-Doc Synchronization: Ensured all docs were in sync with real code behavior, minimizing guesswork and debugging time.",

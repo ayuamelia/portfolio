@@ -35,15 +35,26 @@ const OtherProjectDetail = () => {
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark, changeTheme}}>
         <OtherProjectHeader />
-          <div className="otherProject-detail-container">
-            <h1>{otherProject.title}</h1>
+        <div className="otherProject-detail-container">
+          <h1>{otherProject.title}</h1>
+          <p>{otherProject.subtitle}</p>
+          <p>{otherProject.intro}</p>
+          {slugifiedTitle === "airflow-dag-monitoring" ? (
+            <AirflowDetail />
+          ) : slugifiedTitle === "open-api-document" ? (
+            <OpenApiDetail />
+          ) : slugifiedTitle === "n8n-ai" ? (
+            <N8nDetail />
+          ) : slugifiedTitle === "golek-pet-shop" ? (
+            <GpsDetail />
+          ) : slugifiedTitle === "hirelit-platform" ? (
+            <HirelitDetail />
+          ) : slugifiedTitle === "pos-coffeeshop" ? (
+            <PosCoffeeshopDetail />
+          ) : (
             <p>{otherProject.subtitle}</p>
-            <p>{otherProject.intro}</p>
-        {slugifiedTitle === "airflow-dag-monitoring" ? (<AirflowDetail />) : slugifiedTitle === "open-api-document" ? (<OpenApiDetail />) : slugifiedTitle === "n8n-ai" ? (<N8nDetail />) : slugifiedTitle === "golek-pet-shop" ? (<GpsDetail />) :  slugifiedTitle === "hirelit-platform" ? (<HirelitDetail />) : slugifiedTitle === "pos-coffeeshop" ? (<PosCoffeeshopDetail />) : (
-            <p>{otherProject.subtitle}</p>
-            
           )}
-          </div>
+        </div>
         <Footer />
         <ScrollToTopButton />
       </StyleProvider>
