@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2b09e806.css",
-    "main.js": "./static/js/main.ed0a15e6.js",
+    "main.js": "./static/js/main.fdc365e9.js",
     "static/css/487.8531966f.chunk.css": "./static/css/487.8531966f.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "./static/js/487.7ae187c0.chunk.js",
     "static/css/990.a8e8a761.chunk.css": "./static/css/990.a8e8a761.chunk.css",
@@ -13,8 +13,8 @@
     "static/media/airflow3.png": "./static/media/airflow3.fc3a23c462a2b6167aec.png",
     "static/media/airflow2.png": "./static/media/airflow2.1ca17ab2179022d69a7b.png",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume-de.pdf": "./static/media/resume-de.beac7a7252b319f24a93.pdf",
-    "static/media/resume.pdf": "./static/media/resume.eea75d50f4010e52dd01.pdf",
+    "static/media/resume-de.pdf": "./static/media/resume-de.477224d7a9c8f3e5d701.pdf",
+    "static/media/resume.pdf": "./static/media/resume.38409d31c2aa4214950f.pdf",
     "static/media/bcaLogo.png": "./static/media/bcaLogo.40fd0eb28c6c80f3b198.png",
     "static/media/gps-icon.png": "./static/media/gps-icon.b74fce1de50b9c7f9acb.png",
     "static/media/swagger.png": "./static/media/swagger.13af9fe979ef0c49e41e.png",
@@ -39,7 +39,7 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2b09e806.css.map": "./static/css/main.2b09e806.css.map",
-    "main.ed0a15e6.js.map": "./static/js/main.ed0a15e6.js.map",
+    "main.fdc365e9.js.map": "./static/js/main.fdc365e9.js.map",
     "487.8531966f.chunk.css.map": "./static/css/487.8531966f.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "./static/js/487.7ae187c0.chunk.js.map",
     "990.a8e8a761.chunk.css.map": "./static/css/990.a8e8a761.chunk.css.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.2b09e806.css",
-    "static/js/main.ed0a15e6.js"
+    "static/js/main.fdc365e9.js"
   ]
 }
